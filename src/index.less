@@ -1,0 +1,45 @@
+.container {
+  background: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+
+  .headerContainer {
+    position: relative;
+    box-sizing: border-box;
+
+    .header {
+      display: flex;
+      box-sizing: border-box;
+
+      .headItem {
+        box-sizing: border-box;
+
+        font-size: 14px;
+        font-family: PingFangSC-Regular;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        text-align: center;
+        padding: 12px 17px;
+        cursor: pointer;
+        border-bottom: 4px solid rgba(232, 232, 232, 1);
+        transition: border 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+      }
+
+      .headItemChecked {
+        .headItem;
+        color: rgba(0, 155, 255, 1);
+      }
+    }
+
+    .tab_bar {
+      position: absolute;
+      bottom: 0px;
+      box-sizing: border-box;
+      background-color: #1890ff;
+      height: 4px;
+      transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+        width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+        left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+        -webkit-transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+  }
+}
