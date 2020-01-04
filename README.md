@@ -6,6 +6,8 @@
 ## 使用方式
 
 ```
+import TabHeader from 'tabheader-react';
+
     <TabHeader
       defaultHead="abc"
       heardList={[
@@ -19,11 +21,17 @@
     />
 ```
 
+## 安装
+
+```
+npm i tabheader-react
+```
+
 ## 查看 demo
 
 [github 地址](https://github.com/codepandy/tabheader_react)
 
-### 运行demo
+### 运行 demo
 
 ```
 // clone 代码

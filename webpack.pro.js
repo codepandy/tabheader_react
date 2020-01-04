@@ -7,6 +7,7 @@ module.exports = merge(baseConfig, {
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "bundle.js",
+    libraryTarget: "commonjs2",
   },
   mode: "production",
 });
