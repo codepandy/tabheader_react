@@ -10,7 +10,8 @@
     "start": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.pro.js",
     "prepub": "npm run build",
-    "pub": "npm publish"
+    "pub": "npm publish",
+    "version": "npm version patch"
   },
   "keywords": [
     "react",
