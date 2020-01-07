@@ -8,7 +8,9 @@
   ],
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.pro.js"
+    "build": "webpack --config webpack.pro.js",
+    "prepub": "npm run build",
+    "pub": "npm publish"
   },
   "keywords": [
     "react",

@@ -3,6 +3,10 @@
 开发一个 react 的 tabheader 组件。
 风格和 ant-design 保持一致。由于开发中 UI 设计的 tab 风格，总是头和 body 是分开的，所以封装了一个单独 tabheader。
 
+## 效果图
+
+![效果图](./public/tab.png)
+
 ## 使用方式
 
 ```
