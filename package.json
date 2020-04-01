@@ -1,6 +1,6 @@
 {
   "name": "tabheader-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a tabheader component for react.",
   "main": "./build/bundle.js",
   "files": [
