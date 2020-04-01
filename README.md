@@ -5,29 +5,29 @@
 
 ## 效果图
 
-![效果图](./public/tab.png)
+![tab.png](https://i.loli.net/2020/04/01/1mQdgsOIvD3WPcj.png)
 
 ## 使用方式
 
-```
-import TabHeader from 'tabheader-react';
+```js
+import TabHeader from "tabheader-react";
 
-    <TabHeader
-      defaultHead="abc"
-      heardList={[
-        { code: "abc", text: "较长的名字数量", num: "10" },
-        { code: "abcd", text: "男人", num: "101" },
-        { code: "abce1", text: "美女数", num: "0" },
-      ]}
-      onClickHeader={val => {
-        alert(val);
-      }}
-    />
+<TabHeader
+  defaultHead="abc"
+  heardList={[
+    { code: "abc", text: "较长的名字数量", num: "10" },
+    { code: "abcd", text: "男人", num: "101" },
+    { code: "abce1", text: "美女数", num: "0" },
+  ]}
+  onClickHeader={val => {
+    alert(val);
+  }}
+/>;
 ```
 
 ## 安装
 
-```
+```bash
 npm i tabheader-react
 ```
 
@@ -37,7 +37,7 @@ npm i tabheader-react
 
 ### 运行 demo
 
-```
+```bash
 // clone 代码
 git clone https://github.com/codepandy/tabheader_react
 
